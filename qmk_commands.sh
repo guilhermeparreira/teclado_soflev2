@@ -14,3 +14,8 @@ qmk new-keymap -kb sofle/rev2 -km personal
 
 qmk compile -kb sofle/rev1 -km personal
 qmk flash -kb sofle/rev1 -km personal
+
+ 
+# Flashing after changing the layout in qmk online
+cp ~/Downloads/sofle_rev1_layout_2025-05-19.hex ~/qmk_firmware/.build/sofle_rev1_default.hex
+qmk flash -kb sofle/rev1 -km personal

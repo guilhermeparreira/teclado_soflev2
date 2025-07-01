@@ -8,10 +8,9 @@ Aqui compartilha algumas experiências ao utilizar o sofle v2:
 + coluna da tecla 2 é referente ao pino 15 do esquematico do arduíno
 + SCA ou SDL são do oled
 + QKBOOT is how this key is defined in code
-+ Pinos 19 e 20 se conectam com o potenciômetro do knob direito
++ Pino 20 se conectam com o potenciômetro do knob direito. Para testar conectividade de qualquer pino do arduíno, basta colocar uma ponta do multímetro no GND, e a outra no pino desejado;
 + Pinos 5 ou 6 ou 11 ou 12 potênciêmtro botão
 + Pino 5 (SDA) ou 6 (SDL) oled
-
 
 Dicas Fabio Akita para se acostumar:
 
